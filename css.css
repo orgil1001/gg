@@ -1,0 +1,294 @@
+html, body{
+    height: 100% ;
+    margin: 0;
+    box-sizing: inherit;
+}
+.container{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#235390;
+    padding: 0px 220px;
+    width: 100%;
+    height: 70px;
+   position:fixed;
+
+
+}
+.p{
+    display: flex;
+    font-family: sans-serif;
+    display: flex;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .8px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    
+}
+.zurag1{
+    height: 36px;
+    width: 153px;
+}
+
+.slide1 {
+    background-image: url("https://d35aaqx5ub95lt.cloudfront.net/images/star-pattern.svg");
+
+    display: flex;
+    flex-direction: row;
+    padding: 40px 120px;
+    background-color: #235390;
+    height: 635px;
+}
+
+.slide1__rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+
+.slide1__rightSide  p{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.slide1__rightSide .getStartedBtn {
+    padding: 15px 100px;
+    border-radius: 20px;
+    background-color: #58cc02;
+    border: 2px solid #58a700;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+ .slide1__rightSide .alreadyBtn {
+    font-family: sans-serif;
+    padding: 15px 45px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background: #235390;
+    border: 2px solid #042c60;
+    color: #fff;
+}
+
+.slide1_leftSide {
+    margin-top: 50px;
+
+}
+
+
+.slide2{
+    background-color: #0a4a82;
+    width: 100%;
+    height: 74px;
+   display: flex;
+   justify-content: center;
+}
+.boxx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 40px;
+   margin: 17px 52px;
+}
+.box{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    margin-right: 12px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.japan{
+   
+    height: 30px;
+    width: 50px;
+}
+.hvr{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.bird{
+    margin: 0px 48px 0px 24px;
+    height: 145px;
+    min-width: 185px;
+   display: flex;
+}
+.h{
+    font-family: sans-serif;
+}
+h2{
+    color: #3c3c3c;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 0 0 25px;
+}
+h3{
+    color: #777;
+    font-size: 17px;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+ .slide3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+    max-width:1065px;
+    margin: auto;
+    border-bottom: 1.5px solid #b1bfca;
+   
+ }
+ .slide4{
+    margin: auto;
+    padding: 40px;
+    align-items: center;
+    max-width: 1065px;
+    border-bottom: 1.5px solid #b1bfca;
+ }
+ .S4text{
+    min-width: 700px;
+    line-height: 26px;
+    margin: 0 0 25px;
+    display: block;
+    display: flex;
+    justify-content: center;
+ }
+ .S4box{
+    display: flex;
+    flex-direction: row;
+ }
+ .column1{
+display: flex;
+flex-direction: column;
+ }
+ .column2{
+    display: flex;
+ }
+ .column3{
+    display: flex;
+    flex-direction: column;
+ }
+ .img{
+    background-size: 43px;
+    display: inline-block;
+    height: 43px;
+    margin-top: -7px;
+    min-width: 43px;
+
+ }
+
+ .boxtext{
+    color: #777;
+    font-size: 14px;
+    line-height: 1.7;
+ }
+ 
+
+ .boxpad{
+    padding: 5px 0px 18px 15px;
+ }
+.comz{
+    background-size: 245px;
+    height: 161px;
+    margin: auto 48px;
+    min-width: 245px;
+    width: 245px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    color:#1cb0f6;
+}
+.bird3{
+    height: 220px;
+    min-width: 182px;
+}
+.bird2{
+    height: 180px;
+    min-width: 185px;
+    margin-right:40px;
+}
+.bird4{
+    padding-left:48px;
+}
+.last{
+    background-image: url("https://d35aaqx5ub95lt.cloudfront.net/images/star-pattern.svg");
+    background-color: #235390;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 120px;
+    height: 100%;
+    color: #fff;
+}
+.getStartedBtn {
+    padding: 15px 100px;
+    border-radius: 20px;
+    background-color: #58cc02;
+    border: 2px solid #58a700;
+    color: #fff;
+    font-family: sans-serif;
+}
+@media only screen and (max-width: 992px){
+    .slide1{
+    
+     align-items: center;
+    }
+     .slide1_leftSide {
+         display: flex;
+        flex-direction:  column;
+         height: 192px;
+         width: 192px;
+     }
+     .slide1 {
+         display: flex;
+         flex-direction: column;
+     }
+     .slide1__rightSide {
+         padding-left: 0;
+     }
+     
+     .slide3{
+         align-items: center;
+         display: flex;
+         flex-direction: column;
+     }
+     .h{
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         box-sizing: inherit;
+ 
+     }
+     .S4box{
+         display:flex;
+         flex-direction:column;
+         
+     }
+    
+      
+ 
+     
+     
+    
+ 
+ }
